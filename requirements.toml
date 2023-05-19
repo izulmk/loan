@@ -1,0 +1,15 @@
+[[tool.poetry.dependencies]]
+package = "streamlit"
+version = "*"
+
+[[tool.poetry.dependencies]]
+package = "pandas"
+version = "*"
+
+[[tool.poetry.dependencies]]
+package = "numpy"
+version = "*"
+
+[[tool.poetry.dependencies]]
+package = "scikit-learn"
+version = "*"

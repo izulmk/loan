@@ -1,5 +1,4 @@
 [theme]
 base="dark"
-[[tool.poetry.dependencies]]
-package = "scikit-learn"
-version = "*"
+
+
