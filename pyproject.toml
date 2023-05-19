@@ -1,5 +1,0 @@
-[tool.poetry]
-name = "loan"
-version = "1.0.0"
-description = "deskripsi_proyek"
-authors = ['izulmk', 'mkizul']
