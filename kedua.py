@@ -104,7 +104,7 @@ elif app_mode == 'Prediction':
         data_url_no = base64.b64encode(contents).decode('utf-8')
         file_.close()
 
-        loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
+        loaded_model = pickle.load(open('Random_Forest.pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
         if prediction[0] == 0:
             st.error('According to our calculations, you will not get the loan from the bank')
